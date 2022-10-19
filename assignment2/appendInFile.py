@@ -1,0 +1,5 @@
+file=open('assignment.txt','a')
+file.write("\nappending lines in assignment.txt\n")
+a=input()
+file.write(a)
+file.close()
